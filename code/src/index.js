@@ -2,7 +2,7 @@ const express=require('express')
 const hbs=require('hbs')
 const path=require('path')
 const app=express()
-const port =3100
+const port = process.env.PORT || 3100
 
 // paths modules::::::::::::::::
 
