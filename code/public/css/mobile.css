@@ -1,0 +1,72 @@
+@media screen and (max-width : 560px) and (min-width : 150px) {
+    
+    body
+    {
+        box-sizing: border-box;
+    }
+
+    html
+    {
+        font-size: 65%;
+    }
+
+    header
+    {
+        flex-direction: column;
+    }
+
+    .main
+    {
+        height: 40vh;
+    }
+
+    .service
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .products
+    {
+        /* height: 60vh; */
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 0.9rem;
+    }
+
+    /* .products_card
+    {
+        width: 90%;
+        height: 90%;
+    } */
+
+    /* .productImg
+    {
+        width: 70%;
+        margin: 5px auto;
+        padding: 5px;
+    } */
+    
+    .contact
+    {
+        /* margin: 5px;
+        margin-bottom: 10px; */
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contactBtn
+    {
+        /* width: 50%;
+        height: 45%; */
+        padding: 8  px;
+        margin-bottom: 0.7rem;
+    }
+
+    footer
+    {
+        height: 5vh;
+    }
+}

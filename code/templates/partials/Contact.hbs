@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    {{!-- {{>Navbar}} --}}
+    <h2 class="h2_prime">Contact Section</h2>
+    <section class="contact">
+        <div class="contact_left">
+            <img src="./images/contact.jpg" class="contactImg" alt="">
+        </div>
+
+        <div class="contact_right">
+            <h2 class="h3_prime">Get in Touch With Us </h2>
+            <form action="" class="conactForm">
+                <input type="text" placeholder="Enter First Name" name="FName" class="inputField">
+                <input type="text" placeholder="Enter Last Name" name="LName" class="inputField">
+                <input type="email" placeholder="Enter ur Email" name="Email" class="inputField">
+                <input type="phone" placeholder="Enter ur contact" name="Phn" class="inputField">
+                {{!-- <i class="social fa fa-mobile" aria-hidden="true"></i></input> --}}
+
+
+                <textarea name="Comment" cols="10" rows="8" id="" placeholder="Write ur message here...." class="inputTextArea"></textarea><br>    
+                <input type="submit" value="Submit Form" name="Submit" class="contactBtn">
+                <input type="reset" value="Clear Form" name="Clear" class="contactBtn">
+            </form>
+           </form>
+        </div>
+    </section>
+    {{!-- {{>Footer}} --}}
+</body>
+</html>

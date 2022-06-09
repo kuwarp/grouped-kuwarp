@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablets.css">
+    <title>node-project</title>
+</head>
+<body>
+{{>Navbar}}
+
+ <section class="main">
+        <p class="p_prime">Welcome To The</p>
+        <h1 class="h1_prime">SaiComputer</h1>
+        <p class="p_prime">Your One Stop Shop</p>
+
+        <button class="btnPrimary">Know More</button>
+        <div class="link">
+     <a href="https://github.com/kuwarp" target="_blank"class="social"><i class="fa fa-github-square"></i></a> 
+      <a href="https://www.linkedin.com/in/kuwar-pratap-singh-077a85153/" target="_blank"class="social" ><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </div>
+    </section>
+
+ {{!-- <a href="./contact.hbs"></a> --}}
+{{>About}}
+{{>Products}}
+{{>Service}}
+{{>Contact}}
+{{>Footer}}
+
+</body>
+</html>
